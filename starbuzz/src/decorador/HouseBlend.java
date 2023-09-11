@@ -6,8 +6,16 @@ package decorador;
 
 /**
  *
- * @author rosal
+ * @author Rosalía Pérez Acuña 233505
  */
-public class HouseBlend {
-    
+public class HouseBlend extends Bebida {
+
+    public HouseBlend() {
+        descripcion = "House Blend"; //Nombre del café
+    }
+
+    @Override
+    public double getCosto() {
+        return 38;
+    }
 }

@@ -6,8 +6,23 @@ package decorador;
 
 /**
  *
- * @author rosal
+ * @author Rosalía Pérez Acuña 233505
  */
-public class Decaf {
-    
+public class Decaf extends Bebida {
+
+    public Decaf() {
+        descripcion = "Descafeinado"; //Nombre del café
+    }
+
+    @Override
+    public double getCosto() {
+        return 36;
+    }
 }
+
+/**
+ * House Blend $38.00
+ * Dark Roast $45.00
+ * Expresso $36.00
+ * Decaf $30.00
+ */
