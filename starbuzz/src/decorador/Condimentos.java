@@ -5,9 +5,19 @@
 package decorador;
 
 /**
- *
- * @author rosal
+ *Clase Condiment (Patrón Decorador) que se extiende de bebida
+ * @author Rosalía Pérez Acuña 233505
  */
-public class Condimentos {
+public abstract class Condimentos extends Bebida{
+    //Constructor
+    public Bebida bebida; 
+
+    /**
+     * Método que regresa el nombre de un condimento
+     * @return Descripción del condimento
+     */
+    @Override
+    public abstract String getDescripcion();
+    
     
 }

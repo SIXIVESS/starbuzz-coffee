@@ -8,6 +8,26 @@ package decorador;
  *Clase Milk
  * @author Rosalía Pérez Acuña 233505
  */
-public class Leche {
+public class Leche extends Condimentos{
+        public Leche(Bebida bebida){
+        this.bebida=bebida;
+    }
     
+    /**
+     * Método que agrega el chocolate a la descripción
+     * @return Descripción de la bebida
+     */
+    @Override
+    public String getDescripcion(){
+        return bebida.getDescripcion() + " ●●Leche";
+    }
+    
+    /**
+     * Método que aumenta el costo de la bebida
+     * @return Bebida con el precio aumentado
+     */
+    @Override
+    public double getCosto(){
+        return bebida.getCosto() + 7;
+    }
 }
