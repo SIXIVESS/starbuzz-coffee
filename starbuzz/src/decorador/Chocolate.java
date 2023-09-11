@@ -20,7 +20,7 @@ public class Chocolate extends Condimentos{
      */
     @Override
     public String getDescripcion(){
-        return bebida.getDescripcion() + " ●●Chocolate";
+        return bebida.getDescripcion() + " + Chocolate";
     }
     
     /**

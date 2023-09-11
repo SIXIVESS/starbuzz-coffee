@@ -19,7 +19,7 @@ public class Leche extends Condimentos{
      */
     @Override
     public String getDescripcion(){
-        return bebida.getDescripcion() + " ●●Leche";
+        return bebida.getDescripcion() + " + Leche";
     }
     
     /**

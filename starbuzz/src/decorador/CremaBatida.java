@@ -19,7 +19,7 @@ public class CremaBatida extends Condimentos{
      */
     @Override
     public String getDescripcion(){
-        return bebida.getDescripcion() + " ●●Crema Batida";
+        return bebida.getDescripcion() + " + Crema Batida";
     }
     
     /**

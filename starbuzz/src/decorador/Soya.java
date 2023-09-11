@@ -19,7 +19,7 @@ public  class Soya extends Condimentos{
      */
     @Override
     public String getDescripcion(){
-        return bebida.getDescripcion() + " ●●Soya";
+        return bebida.getDescripcion() + " + Soya";
     }
     
     /**
