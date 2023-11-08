@@ -18,6 +18,4 @@ public abstract class Condimentos extends Bebida{
      */
     @Override
     public abstract String getDescripcion();
-    
-    
 }

@@ -30,6 +30,5 @@ public class Chocolate extends Condimentos{
     @Override
     public double getCosto(){
         return bebida.getCosto() + 6;
-    }
-    
+    }  
 }
